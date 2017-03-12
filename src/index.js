@@ -5,6 +5,7 @@ import {
   BrowserRouter as Router,
   Route,
   IndexRoute,
+  browserHistory,
   Link
 } from 'react-router-dom';
 import injectTapEventPlugin from 'react-tap-event-plugin';
@@ -22,7 +23,7 @@ injectTapEventPlugin();
 
 ReactDOM.render(
   <MuiThemeProvider>
-    <Router>
+    <Router history={browserHistory}>
       <div>
         <Route exact path='/' component={Login}/>
         <Route path='/chat' component={Chat}/>

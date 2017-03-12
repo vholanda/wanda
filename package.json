@@ -2,7 +2,7 @@
   "name": "wanda",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vholanda.github.io/wanda",
+  "homepage": "https://vholanda.github.io/wanda/",
   "dependencies": {
     "gh-pages": "^0.12.0",
     "material-ui": "^0.17.0",
