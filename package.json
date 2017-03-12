@@ -2,6 +2,7 @@
   "name": "wanda",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vholanda.github.io/wanda",
   "dependencies": {
     "material-ui": "^0.17.0",
     "moment": "^2.17.1",
